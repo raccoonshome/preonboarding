@@ -3,14 +3,14 @@
 피그마 링크: https://www.figma.com/file/rEbLeBRtg5gTpYXWv7SNvI/%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6?type=design&node-id=0%3A1&mode=design&t=YT48cm3Zf4DvAWMk-1
 
 # 브랜치 이름
-main - dev/영어이름 - feat/기능이름
+main - dev/영어이름 - 영어이름/기능이름
 
     ex) dev/jihyyeon, feat/banner
     //터미널 새로운 브랜치 생성하고 이동하는 명령어
-    git checkout -b feat/기능이름 dev/영어이름
+    git checkout -b 영어이름/기능이름 dev/영어이름
 
 - main 브랜치 기반으로 위의 브랜치들을 만들어서 사용합니다.
-- feat/기능이름의 경우 해당 기능이 끝나면 브랜치는 최종 PR과 함께 사라집니다.
+- 영어이름/기능이름의 경우 해당 기능이 끝나면 브랜치는 최종 PR과 함께 사라집니다.
 - dev/영어이름의 경우 작업물의 최종 버전입니다.
 - main은 별도로 올리지 않습니다!
 
