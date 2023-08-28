@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    line-height: 1.4;
+    list-style: none;
+    font-family: "Oswald-Medium", Helvetica;
+}
+
+button,
+input {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
