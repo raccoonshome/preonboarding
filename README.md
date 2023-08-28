@@ -6,6 +6,9 @@
 main - dev/영어이름 - feat/기능이름
 
     ex) dev/jihyyeon, feat/banner
+    //터미널 새로운 브랜치 생성하고 이동하는 명령어
+    git checkout -b feat/기능이름 dev/영어이름
+
 - main 브랜치 기반으로 위의 브랜치들을 만들어서 사용합니다.
 - feat/기능이름의 경우 해당 기능이 끝나면 브랜치는 최종 PR과 함께 사라집니다.
 - dev/영어이름의 경우 작업물의 최종 버전입니다.
