@@ -1,0 +1,54 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Oswald:wght@500&display=swap');
+  body {
+    font-family: 'Oswald', sans-serif;
+  }
+
+
+
+/* reset */
+
+body,ul,li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+
+
+
+
+/* header */
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 35px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+ }
+
+.logo {
+    padding-left: 38px;
+}
+
+.menu{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+    gap: 59px;
+    padding: 34px 35px;
+    opacity: 0.2;
+    color: #1D1F24;
+}
+
+
+.icon {
+    display: flex;
+    padding-right: 41px;
+}
