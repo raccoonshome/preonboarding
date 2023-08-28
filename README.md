@@ -1,5 +1,6 @@
 # preonboarding
 원티드 프리온보딩 사전과제를 위한 레포지토리
+피그마 링크: https://www.figma.com/file/rEbLeBRtg5gTpYXWv7SNvI/%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6?type=design&node-id=0%3A1&mode=design&t=YT48cm3Zf4DvAWMk-1
 
 # 브랜치 이름
 main - dev/영어이름 - feat/기능이름
