@@ -1,3 +1,14 @@
+:root {
+    --main-color: #FF565C;
+    --bg-color: #f9fafc;
+    --bg-color-dark: #1D1F24;
+    --border-color: #EBEBEB;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
 .a11y-hidden {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -20,10 +31,179 @@
 }
 
 .wrap {
+    position: relative;
     max-width: 1440px;
     padding: 40px;
 }
 
-body {
-    background-color: #f9fafc;
+.btn {
+    display: block;
+    width: 210px;
+    height: 60px;
+    padding: 18px 0;
+    color: var(--main-color);
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.btn:disabled {
+    color: var(--border-color);
+    border-color: var(--border-color);
+}
+
+
+.btn.btn-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn.btn-white:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+    background-color: #fff;
+}
+
+.btn.btn-large {
+    width: 420px;
+    height: 80px;
+    color: #fff;
+    background-color: var(--bg-color-dark);
+}
+
+.label {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.input-large {
+    display: block;
+    width: 420px;
+    height: 80px;
+    color: #fff;
+    background-color: #000;
+    padding: 28px 30px;
+    position: relative;
+}
+
+.input-large::after {
+    content: url(../image/down.svg);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    margin-right: 36px;
+}
+
+.form-email {
+    display: flex;
+
+}
+
+.form-email input {
+    color: var(--bg-color-dark);
+    padding: 0 15px;
+    line-height: 35px;
+    width: 180px;
+}
+
+.form-email input::placeholder {
+    opacity: 0.4;
+}
+
+.form-email input:focus {
+    outline: none;
+    border: 1px solid var(--main-color);
+}
+
+.form-email button.label {
+    font-size: 12px;
+    padding: 0 27px;
+}
+
+.card {
+    color: #FFF;
+    padding: 25px;
+    width: 316px;
+    height: 274px;
+    background: url("../image/default-card-bg.png") center/cover no-repeat;
+    background-color: #1D1F2455;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card.banner {
+    align-items: center;
+}
+
+.card .card-menu {
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    top: 30px;
+    padding: 0 25px;
+}
+
+.card.banner .card-menu {
+    top: 15%;
+    right: 0;
+    margin: auto;
+}
+
+.card .card-title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.2px;
+    margin-top: 20%;
+    margin-bottom: auto;
+    width: 80%;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.card .card-info {
+    gap: 16px;
+}
+
+.card .card-info button {
+    display: flex;
+}
+
+.card .card-info button::before {
+    content: "";
+    width: 22px;
+    height: 1em;
+    display: block;
+    margin-right: 9px;
+}
+
+.card .card-info .share::before {
+    background: url("../image/share.svg") center/contain no-repeat;
+}
+
+.card .card-info .view::before {
+    background: url("../image/view-count.svg") center/contain no-repeat;
+}
+
+.card .card-info .comment::before {
+    background: url("../image/comment.svg") center/contain no-repeat;
 }
